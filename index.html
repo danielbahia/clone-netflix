@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- Wol Carousel CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
     <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2>NETFLIX</h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -19,5 +27,66 @@
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Disponível agora todas as temporadas dessa aclamada série diretamente no seu dispositivo (Android, iOS e PC).</p>
+
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/mini1.jpg" alt="Filme 1" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini2.jpg" alt="Filme 2" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini3.jpg" alt="Filme 3" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini4.jpg" alt="Filme 4" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini5.jpg" alt="Filme 5" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini6.jpg" alt="Filme 6" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini7.jpg" alt="Filme 7" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini8.jpg" alt="Filme 8" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini9.jpg" alt="Filme 9" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="img/mini10.jpg" alt="Filme 10" class="box-filme">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/658e47e55a.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
